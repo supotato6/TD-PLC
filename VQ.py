@@ -1,6 +1,6 @@
 import torch
 import fairseq
-
+#
 #cp = torch.load('/media/ailab/E/zhangjinghong/wav2vec/model/vq/vq-wav2vec.pt')
 #print(cp.filenames)
 model, cfg, task = fairseq.checkpoint_utils.load_model_ensemble_and_task(['/media/ailab/E/zhangjinghong/wav2vec/vq_pretain_model/vq/vq-wav2vec.pt'])
